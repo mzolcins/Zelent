@@ -1,0 +1,5 @@
+﻿  zelent wskazniki.cpp
+d:\visual studio 2015\projects\zelent wskazniki\zelent wskazniki\zelent wskazniki.cpp(25): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+d:\visual studio 2015\projects\zelent wskazniki\zelent wskazniki\zelent wskazniki.cpp(25): warning C4305: 'initializing': truncation from 'double' to 'float'
+  zelent wskazniki.vcxproj -> d:\Visual Studio 2015\Projects\zelent wskazniki\Debug\zelent wskazniki.exe
+  zelent wskazniki.vcxproj -> d:\Visual Studio 2015\Projects\zelent wskazniki\Debug\zelent wskazniki.pdb (Full PDB)
