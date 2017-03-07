@@ -4,6 +4,8 @@
 #include "stdafx.h"
 #include <list>
 #include <iostream>
+#include <cstdlib>
+#include<string>
 #include <Windows.h>
 
 using namespace std;
@@ -32,6 +34,7 @@ void wyswietl()
 void push_front()
 {
 	int liczba;
+	// liczba;
 	cout << "Podaj jaka liczbe wstawic na pocz\245tek listy: ";
 	cin >> liczba;
 	lista.push_front(liczba);
@@ -42,6 +45,7 @@ void push_front()
 void push_back()
 {
 	int liczba;
+	// liczba;
 	cout << "Podaj jaka liczbe wstawic na koniec listy: ";
 	cin >> liczba;
 	lista.push_back(liczba);
@@ -123,6 +127,8 @@ void insert()
 {
 	cout << "Nastapi wlozenie elementu!" << endl;
 	int liczba, miejsce;
+	//int miejsce;
+	// liczba;
 	cout << "Podaj liczbe, ktora chcesz wlozyc:";						cin >> liczba;
 	cout << endl << "Podaj miejsce, w ktore chcesz wlozyc liczbe:";		cin >> miejsce;
 	list<int>::iterator it;
@@ -194,4 +200,3 @@ int main()
 
     return 0;
 }
-
